@@ -17,7 +17,7 @@ help:
 .PHONY: install-deps
 install-deps: ## Install pip
 	apt-get update -y
-	apt-get install python-pip -y
+	apt-get install python3-pip -y
 
 .PHONY: add-venv
 add-venv: ## Install virtualenv, create virtualenv, install requirements
