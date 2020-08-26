@@ -8,7 +8,7 @@
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="AutoNetkit.ibgp_role" type="String">Disabled</entry>
-            <entry key="static_ip" type="String">172.29.132.11</entry>
+            <entry key="static_ip" type="String">172.16.2.50</entry>
             <entry key="config" type="String">!Command: show running-config
 !Time: Thu Jul 25 22:08:05 2019
 
@@ -259,7 +259,7 @@ router ospf OSPF_UNDERLAY_NET
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="AutoNetkit.ibgp_role" type="String">Disabled</entry>
-            <entry key="static_ip" type="String">172.29.132.12</entry>
+            <entry key="static_ip" type="String">172.16.2.51</entry>
             <entry key="config" type="String">!Command: show running-config
 !Time: Thu Jul 25 22:08:05 2019
 
@@ -510,7 +510,7 @@ router ospf OSPF_UNDERLAY_NET
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="AutoNetkit.ibgp_role" type="String">Disabled</entry>
-            <entry key="static_ip" type="String">172.29.132.13</entry>
+            <entry key="static_ip" type="String">172.16.2.52</entry>
             <entry key="config" type="String">!Command: show running-config
 !Time: Thu Jul 25 22:08:06 2019
 
@@ -738,7 +738,7 @@ router ospf OSPF_UNDERLAY_NET
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="AutoNetkit.ibgp_role" type="String">Disabled</entry>
-            <entry key="static_ip" type="String">172.29.132.14</entry>
+            <entry key="static_ip" type="String">172.16.2.53</entry>
             <entry key="config" type="String">!Command: show running-config
 !Time: Thu Jul 25 22:08:06 2019
 
