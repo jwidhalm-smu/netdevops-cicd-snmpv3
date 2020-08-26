@@ -8,7 +8,7 @@
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="AutoNetkit.ibgp_role" type="String">Disabled</entry>
-            <entry key="static_ip" type="String">172.16.2.50</entry>
+            <entry key="static_ip" type="String">192.168.1.16</entry>
             <entry key="config" type="String">!Command: show running-config
 !Time: Thu Jul 25 22:08:05 2019
 
@@ -232,7 +232,7 @@ interface Ethernet1/64
 interface mgmt0
   description OOB Management
   vrf member management
-  ip address 172.16.2.50/24
+  ip address 192.168.1.16/24
 
 interface loopback0
   description Loopback
@@ -259,7 +259,7 @@ router ospf OSPF_UNDERLAY_NET
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="AutoNetkit.ibgp_role" type="String">Disabled</entry>
-            <entry key="static_ip" type="String">172.16.2.51</entry>
+            <entry key="static_ip" type="String">192.168.1.17</entry>
             <entry key="config" type="String">!Command: show running-config
 !Time: Thu Jul 25 22:08:05 2019
 
@@ -483,7 +483,7 @@ interface Ethernet1/64
 interface mgmt0
   description OOB Management
   vrf member management
-  ip address 172.16.2.51/24
+  ip address 192.168.1.17/24
 
 interface loopback0
   description Loopback
@@ -510,7 +510,7 @@ router ospf OSPF_UNDERLAY_NET
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="AutoNetkit.ibgp_role" type="String">Disabled</entry>
-            <entry key="static_ip" type="String">172.16.2.52</entry>
+            <entry key="static_ip" type="String">192.168.1.18</entry>
             <entry key="config" type="String">!Command: show running-config
 !Time: Thu Jul 25 22:08:06 2019
 
@@ -716,7 +716,7 @@ interface Ethernet1/64
 interface mgmt0
   description OOB Management
   vrf member management
-  ip address 172.16.2.52/24
+  ip address 192.168.1.18/24
 
 interface loopback0
   description Loopback
@@ -738,7 +738,7 @@ router ospf OSPF_UNDERLAY_NET
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="AutoNetkit.ibgp_role" type="String">Disabled</entry>
-            <entry key="static_ip" type="String">172.16.2.53</entry>
+            <entry key="static_ip" type="String">192.168.1.19</entry>
             <entry key="config" type="String">!Command: show running-config
 !Time: Thu Jul 25 22:08:06 2019
 
@@ -944,7 +944,7 @@ interface Ethernet1/64
 interface mgmt0
   description OOB Management
   vrf member management
-  ip address 172.16.2.53/24
+  ip address 192.168.1.19/24
 
 interface loopback0
   description Loopback
