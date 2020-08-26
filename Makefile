@@ -45,12 +45,12 @@ start-test-network: ## Start test network via VIRL
 .PHONY: configure-test-network
 configure-test-network: ## Configure test network
 	. ./venv/bin/activate
-	ansible-playbook -i ansible/inventory/test ansible/playbooks/snmp-deploy.yaml -vvv
+	ansible-playbook -i ansible/inventory/test ansible/playbooks/snmp-deploy.yaml
 
 .PHONY: run-tests-test-network
 run-tests-test-network: ## Run tests against test network
 	. ./venv/bin/activate
-	ansible-playbook -i ansible/inventory/test ansible/playbooks/snmp-test.yaml
+	ansible-playbook -i ansible/inventory/test ansible/playbooks/snmp-test.yaml -vvv
 
 .PHONY: configure-prod-network
 configure-prod-network: ## Configure prod network
