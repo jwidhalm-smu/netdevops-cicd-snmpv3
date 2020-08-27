@@ -21,11 +21,11 @@ install-deps: ## Install pip
 
 .PHONY: add-venv
 add-venv: ## Install virtualenv, create virtualenv, install requirements
-	pip3 install virtualenv
+	pip install virtualenv
 	virtualenv venv
 	. ./venv/bin/activate
 	@echo installing requirements.txt ...
-	@venv/bin/pip3 install -q -r ./requirements.txt
+	@venv/bin/pip install -q -r ./requirements.txt
 
 .PHONY: format
 format: ## Remove end of line spaces from yaml files
